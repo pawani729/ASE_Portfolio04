@@ -13,5 +13,7 @@ public class Reflection03 {
     RefMain r = new RefMain();
     System.out.println("class =" + r.getClass());
     System.out.println("class name =" + r.getClass().getName());
+    System.out.println("Simple name =" + r.getClass().getSimpleName());
+    System.out.println("Canonical name =" + r.getClass().getCanonicalName());
 }
 }
